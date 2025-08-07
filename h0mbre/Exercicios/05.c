@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SEGUNDOS_PARA_HORAS 3600
+#define SEGUNDOS_PARA_HORAS 3600 /* Como ensinado no K&R */
 
 int main()
 {
@@ -11,12 +11,12 @@ int main()
     /* Algoritmo
     Dividir o número de segundos por 3600 para pegar as horas.
     Dividir o resto da divisão anterior por 60 para pegar os minutos.
-    O resto da divisão anterior é o número de segundos.
+    O resto da divisão dos segundos por 60 resulta nos segundos.
     */
     
     horas_final = segundos_input / SEGUNDOS_PARA_HORAS;
     minutos_final = (segundos_input % SEGUNDOS_PARA_HORAS) / 60;
-    segundos_final = minutos_final % 60;
+    segundos_final = segundos_input % 60;
     
     printf("%d segundos são iguais a %d horas, %d minutos e %d segundos.", segundos_input, horas_final, minutos_final, segundos_final);
     return 0;
