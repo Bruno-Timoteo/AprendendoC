@@ -1,1 +1,1 @@
-Minhas respostas dos exercícios disponíveis no repositório <a href="https://github.com/h0mbre/Learning-C/tree/master">Learning-C</a>, indicado na trilha Roppers e criado por <a href="https://github.com/h0mbre">h0mbre</a>.
+Minhas respostas dos exercícios disponíveis no repositório <a href="https://github.com/h0mbre/Learning-C/tree/master">Learning-C</a>, indicado na trilha da Roppers e criado por <a href="https://github.com/h0mbre">h0mbre</a>.
