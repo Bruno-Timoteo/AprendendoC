@@ -6,7 +6,8 @@ malloc, realloc e outras com ponteiros, como getline(). Pretendo, futuramente, q
 Verifiquei que o h0mbre, no repositório original, utilizou um método com ponteiros e um tipo especial no scanf(%ms). Este método
 não é muito indicado, possivelmente não sendo suportado em todos os sistemas operacionais. (07/08/2025) */
 
-int main(void) {
+int main(void) 
+{
     char first_name[50];
     char last_name[50];
     
@@ -15,7 +16,7 @@ int main(void) {
     printf("\nEnter your last name: ");
     scanf("%s", &last_name);
     
-    printf("\nHello %s %s!", first_name, last_name);
+    printf("\nHello %s %s\n", first_name, last_name);
     
     return 0;
 }
